@@ -1,0 +1,7 @@
+body {
+background-image: url('images/Kiyv_1.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh; /*Tive que adicionar isto para aparecer a imagem, porque? Pode nao aparecer por falta de espaco*/
+}
