@@ -1,17 +1,17 @@
 .navbar {
-  background-color: rgba(255, 255, 255, 0.3); /*Branco com 30% de opacidade*/
-  backdrop-filter: blur(8px); /*Cria o efeito "vidro fosco" no fundo*/
-  padding: 15px 30px; /* 15 pa cima e baixo, 30 para as laterais. Isto da espaco para o texto no topo*/
-  display: flex; /*Disponibiliza a organizacao do conteudo na barra (o <h1> e o <nav>), estando dependente do codigo abaixo*/
-  justify-content: space-between; /*Coloca o titulo a esquerda e os links a direita (do estilo do 1 exercicio do 1 lab)*/
+  background-color: rgba(255, 255, 255, 0.3); /* Branco com 30% de opacidade */
+  backdrop-filter: blur(8px); /* Cria o efeito "vidro fosco" no fundo */
+  padding: 15px 30px; /* 15 pa cima e baixo, 30 para as laterais. Isto da espaco para o texto no topo */
+  display: flex; /* Disponibiliza a organizacao do conteudo na barra (o <h1> e o <nav>), estando dependente do codigo abaixo */
+  justify-content: space-between; /* Coloca o titulo a esquerda e os links a direita (do estilo do 1 exercicio do 1 lab) */
   align-items: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /*Sombra suave para destacar do fundo*/
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar do fundo */
 }
 
 .navbar nav a {
   color: 222;
-  text-decoration: none; /*Remove o sublinhado*/
-  margin-left: 20px; /*Espaço entre cada link*/
+  text-decoration: none; /* Remove o sublinhado */
+  margin-left: 20px; /* Espaço entre cada link */
 }
 
 body {
@@ -19,5 +19,5 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh; /*Tive que adicionar isto para aparecer a imagem, porque? Pode nao aparecer por falta de espaco*/
+  min-height: 100vh; /* Tive que adicionar isto para aparecer a imagem, porque? Pode nao aparecer por falta de espaco */
 }
