@@ -14,10 +14,34 @@
   margin-left: 20px; /* Espaço entre cada link */
 }
 
-body {
+body.pag-Principal {
   background-image: url("images/Kiyv_1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh; /* Tive que adicionar isto para aparecer a imagem, porque? Pode nao aparecer por falta de espaco */
 }
+
+body.pag-Loc {
+  background-image: url("images/artebruv.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 30px 15px; /* Dá espaço nas bordas do ecrã para a caixa amarela respirar */
+  margin: 0;
+}
+
+
+.contentor-loc {
+  background-color: rgba(247, 183, 49, 0.45);
+  backdrop-filter: blur(5px);
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  color: #111;
+}
+
